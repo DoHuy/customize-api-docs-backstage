@@ -24,7 +24,7 @@ import {
   TableProps,
 } from '@backstage/core-components';
 import { configApiRef, useApi, useRouteRef } from '@backstage/core-plugin-api';
-import { CatalogTable, CatalogTableRow } from '@backstage/plugin-catalog';
+import { CatalogTable, CatalogTableRow } from '@internal/plugin-customize-catalog';
 import {
   EntityKindPicker,
   EntityLifecyclePicker,

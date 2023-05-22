@@ -5,7 +5,7 @@ import {
   CatalogEntityPage,
   CatalogIndexPage,
   catalogPlugin,
-} from '@backstage/plugin-catalog';
+} from '@internal/plugin-customize-catalog';
 import {
   CatalogImportPage,
   catalogImportPlugin,
@@ -56,7 +56,7 @@ const app = createApp({
 const routes = (
   <FlatRoutes>
     <Route path="/" element={<Navigate to="customize-api-docs" />} />
-    <Route path="/catalog" element={<CatalogIndexPage />} />
+    <Route path="/customize-catalog" element={<CatalogIndexPage />} />
     <Route
       path="/catalog/:namespace/:kind/:name"
       element={<CatalogEntityPage />}

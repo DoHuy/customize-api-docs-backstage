@@ -25,7 +25,7 @@ import {
   isKind,
   hasCatalogProcessingErrors,
   isOrphan,
-} from '@backstage/plugin-catalog';
+} from '@internal/plugin-customize-catalog';
 import {
   isGithubActionsAvailable,
   EntityGithubActionsContent,

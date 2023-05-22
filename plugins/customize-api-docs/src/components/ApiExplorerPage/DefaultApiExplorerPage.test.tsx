@@ -29,7 +29,7 @@ import {
 import {
   CatalogTableRow,
   DefaultStarredEntitiesApi,
-} from '@backstage/plugin-catalog';
+} from '@internal/plugin-customize-catalog';
 import {
   CatalogApi,
   catalogApiRef,
