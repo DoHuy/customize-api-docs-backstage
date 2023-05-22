@@ -7,7 +7,7 @@ import {
   EntityHasApisCard,
   EntityProvidedApisCard,
   EntityProvidingComponentsCard,
-} from '@backstage/plugin-api-docs';
+} from '@internal/plugin-customize-api-docs';
 import {
   EntityAboutCard,
   EntityDependsOnComponentsCard,
